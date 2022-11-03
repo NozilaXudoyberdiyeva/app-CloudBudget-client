@@ -160,13 +160,15 @@ body{
 /************** Header styles end! **************/
 /************** Main styles start! **************/
 /************** Section1 styles start! **************/
+.main{
+    border: 1px solid #000;
+}
 .section1-wrapper{
     position: relative;
     width: 100%;
     height: 500px;
-    left: 0;
-    top: 782px;
     background: #FFF;
+    border: 1px solid transparent;
 }
 .section1-title{
     width: 445px;
@@ -196,6 +198,110 @@ body{
     background: url("../images/section1-img.png"), #C4C4C4;
     border-radius: 15px;
 }
-
+.video_player{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 702px;
+    top: 217px;
+}
 /************** Section1 styles end! **************/
+/************** Section2 styles start! **************/
+.section2{
+    background: #FAFAFA;
+}
+.section2-title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000;
+    padding-top: 63px;
+}
+.section2-wrapper{
+    position: relative;
+    width: 1440px;
+    height: 597px;
+}
+.section2-back1{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 165px;
+    top: 63px;
+    background: url("../images/section2-card1.png"), #FFF;
+    border-radius: 8px;
+}
+.section2-back2{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 545px;
+    top: 63px;
+    background: url("../images/section2-card2.png"), #FFF;
+    border-radius: 8px;
+}
+.section2-back3{
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 925px;
+    top: 63px;
+    background: url("../images/section2-card3.png"), #FFF;
+    border-radius: 8px;
+}
+.section2-card1{
+    position: absolute;
+    width: 293px;
+    height: 198px;
+    left: 194px;
+    top: 220px;
+    background: #FFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-left: 32px;
+}
+.section2-card2{
+    position: absolute;
+    width: 293px;
+    height: 198px;
+    left: 574px;
+    top: 220px;
+    background: #FFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-left: 32px;
+}
+.section2-card3{
+    position: absolute;
+    width: 293px;
+    height: 198px;
+    left: 954px;
+    top: 220px;
+    background: #FFF;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-left: 32px;
+}
+.card-title{
+    width: 229px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    margin-bottom: 20px;
+}
+.card-foot-title{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: #ED4C5C;
+    margin-left: 85px;
+}
+
+/************** Section2 styles end! **************/
 /************** Main styles end! **************/
