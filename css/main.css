@@ -302,6 +302,81 @@ body{
     color: #ED4C5C;
     margin-left: 85px;
 }
-
 /************** Section2 styles end! **************/
+/************** Section3 styles start! **************/
+.section3-title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #000;
+    margin-top: 63px;
+    margin-bottom: 52px;
+}
+.section3-list{
+    align-items: start;
+    margin-left: 125px;
+}
+.section3-item{
+    position: relative;
+    display: inline-block;
+    width: 255px;
+    height: 226px;
+    margin-top: 0;
+    margin-right: 30px;
+}
+.section3-number{
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 120px;
+    text-align: center;
+    color: rgba(16, 16, 16, 0.08);
+    margin-top: 0;
+    margin-bottom: 19px;
+}
+.list-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+    margin-top: 19px;
+}
+.list-desc{
+    width: 191px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: 34px;
+    color: #000;
+}
+.section3-img1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 87px;
+    top: 59px;
+}
+.section3-img2{
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    left: 94px;
+    top: 65px;
+}
+.section3-img3{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 93px;
+    top: 61px;
+}
+.section3-img4{
+    position: absolute;
+    width: 47px;
+    height: 54px;
+    left: 104px;
+    top: 71px;
+}
+/************** Section3 styles end! **************/
 /************** Main styles end! **************/
