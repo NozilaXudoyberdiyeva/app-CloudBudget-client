@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family: 'lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 body{
@@ -157,5 +157,45 @@ body{
     line-height: 17px;
     color: #ED4C5C;
 }
-
 /************** Header styles end! **************/
+/************** Main styles start! **************/
+/************** Section1 styles start! **************/
+.section1-wrapper{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 782px;
+    background: #FFF;
+}
+.section1-title{
+    width: 445px;
+    height: 107px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000;
+    margin-top: 140px;
+    margin-bottom: 24px;
+    margin-left: 165px;
+}
+.section1-desc{
+    width: 445px;
+    height: 115px;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000;
+    margin-left: 165px;
+}
+.section1-back-img{
+    position: absolute;
+    width: 445px;
+    height: 311px;
+    left: 735px;
+    top: 94px;
+    background: url("../images/section1-img.png"), #C4C4C4;
+    border-radius: 15px;
+}
+
+/************** Section1 styles end! **************/
+/************** Main styles end! **************/
