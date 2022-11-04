@@ -160,9 +160,6 @@ body{
 /************** Header styles end! **************/
 /************** Main styles start! **************/
 /************** Section1 styles start! **************/
-.main{
-    border: 1px solid #000;
-}
 .section1-wrapper{
     position: relative;
     width: 100%;
@@ -480,7 +477,7 @@ body{
     height: 60px;
     left: 735px;
     top: 117px;
-    border: 1px solid #333333;
+    border: 1px solid #333;
     border-radius: 6px;
     padding-left: 31px;
 }
@@ -524,3 +521,75 @@ body{
 }
 /************** Section5 styles end! **************/
 /************** Main styles end! **************/
+/************** Footer styles start! **************/
+.footer{
+    background-color: #FAFAFA;
+}
+.footer-wrapper{
+    align-items: start;
+    width: 100%;
+    height: 435px;
+    padding-top: 66px;
+    padding-left: 126px;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 1100px;
+}
+.footer-item {
+    display: inline-block;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010
+}
+.address{
+    width: 254px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+    margin-top: 33px;
+}
+.services{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 28px;
+}
+.services-item{
+    font-size: 12px;
+    line-height: 160%;
+    color: #000000;
+}
+.email{
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin-top: 33px;
+}
+.call-center{
+    font-size: 12px;
+    line-height: 14px;
+    color: #121212;
+}
+.social{
+    width: 66px;
+    height: 14px;
+    margin-top: 20px;
+}
+.visa{
+    width: 216px;
+    height: 31px;
+    margin-top: 33px;
+}
+.copy-date{
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+    margin-top: 141px;
+    margin-left: 35px;
+}
+/************** Footer styles end! **************/
